@@ -3,7 +3,8 @@
     <router-link to="/">Lists</router-link> |
     <router-link to="/about">Props</router-link> |
     <router-link to="/conditional">Conditional</router-link> |
-    <router-link to="/forms">Forms</router-link>
+    <router-link to="/forms">Forms</router-link> |
+    <router-link to="/simple-api">API</router-link>
   </nav>
   <router-view/>
 </template>

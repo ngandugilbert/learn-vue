@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ConditionView from '../views/ConditionView.vue'
 import FormsVue from '../views/FormsView.vue'
+import ApiView from '../views/ApiView.vue'
 const routes = [
   {
     path: '/',
@@ -26,6 +27,12 @@ const routes = [
     path: '/forms',
     name: 'form',
     component: FormsVue
+  },
+  
+  {
+    path: '/simple-api',
+    name: 'simple-api',
+    component: ApiView
   },
 ]
 

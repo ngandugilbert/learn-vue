@@ -2,22 +2,31 @@
 
 ## Project setup
 ```
-pnpm install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-pnpm run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-pnpm run build
+npm run build
 ```
 
 ### Lints and fixes files
 ```
-pnpm run lint
+npm run lint
+```
+
+### Starting both the API and the webserver
+```
+npm run dev
+```
+### Note
+```
+Look for the server.js file. That is where the server code is written, that is, all the end points are written there.
 ```
 
 ### Customize configuration
